@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "EHServiceSOAPGateway.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    EHServiceSOAPGateway * gateway = [[EHServiceSOAPGateway alloc] init];
+    NSDictionary * idc = @{kLoginAccountKey:@"10086012",
+                           kLoginPasswordKey:@"10086012"};
+    [gateway request:kMethodsLoginKey
+              params:idc
+             success:^(NSDictionary *resultDictionary) {
+                 for (NSDictionary * deviceDic in resultDictionary[kLoginDeviceArrayKey]) {
+                     NSLog(@"device name %@",deviceDic[kDeviceNameKey]);
+                 }
+             } failure:^(NSDictionary *resultDictionary) {
+                 
+             }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

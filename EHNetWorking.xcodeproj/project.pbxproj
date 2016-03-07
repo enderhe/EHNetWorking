@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A00D34D1B53929B00220702 /* ReformerStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00D34C1B53929B00220702 /* ReformerStrategy.m */; };
+		3A00D3511B53947F00220702 /* LoginStructReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00D3501B53947F00220702 /* LoginStructReformer.m */; };
+		3A00D3541B53A78200220702 /* DeviceStructReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00D3531B53A78200220702 /* DeviceStructReformer.m */; };
+		3AE6A7521B466C7D004CD42C /* EHAPIPorxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6A7511B466C7D004CD42C /* EHAPIPorxy.m */; };
+		3AE6A7551B467ECD004CD42C /* AIFURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6A7541B467ECD004CD42C /* AIFURLResponse.m */; };
+		3AE6A75C1B468722004CD42C /* NSURLRequest+AIFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6A75B1B468722004CD42C /* NSURLRequest+AIFNetworkingMethods.m */; };
+		3AE6A75F1B46876C004CD42C /* NSObject+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6A75E1B46876C004CD42C /* NSObject+AXNetworkingMethods.m */; };
+		3AECCF271B4D135A005AF836 /* DESEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AECCF261B4D135A005AF836 /* DESEncrypt.m */; };
+		3AEF3A2F1B43DADB00A61F54 /* SoapInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF3A2E1B43DADB00A61F54 /* SoapInterface.m */; };
+		3AF095DC1B4290B1008504E0 /* soapC.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AF095D21B4290B1008504E0 /* soapC.c */; };
+		3AF095DD1B4290B1008504E0 /* soapClient.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AF095D31B4290B1008504E0 /* soapClient.c */; };
+		3AF095DE1B4290B1008504E0 /* soapServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AF095D51B4290B1008504E0 /* soapServer.c */; };
+		3AF095DF1B4290B1008504E0 /* stdsoap2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AF095D71B4290B1008504E0 /* stdsoap2.c */; };
+		3AF095E01B4290B1008504E0 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AF095DA1B4290B1008504E0 /* base64.c */; };
+		3AF095E11B4290B1008504E0 /* HomeMCUServiceBinding_USCOREIHomeMCUService.nsmap in Resources */ = {isa = PBXBuildFile; fileRef = 3AF095DB1B4290B1008504E0 /* HomeMCUServiceBinding_USCOREIHomeMCUService.nsmap */; };
+		3AF095EA1B42940D008504E0 /* EHServiceSOAPGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF095E91B42940D008504E0 /* EHServiceSOAPGateway.m */; };
+		3AF1C3111B54FEA2008C93A8 /* ReformerSOAPGetwayFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF1C3101B54FEA2008C93A8 /* ReformerSOAPGetwayFactory.m */; };
 		3AF2FCA81B412C9A006E3FF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2FCA71B412C9A006E3FF3 /* main.m */; };
 		3AF2FCAB1B412C9A006E3FF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2FCAA1B412C9A006E3FF3 /* AppDelegate.m */; };
 		3AF2FCAE1B412C9A006E3FF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2FCAD1B412C9A006E3FF3 /* ViewController.m */; };
@@ -14,6 +31,7 @@
 		3AF2FCB31B412C9B006E3FF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF2FCB21B412C9B006E3FF3 /* Images.xcassets */; };
 		3AF2FCB61B412C9B006E3FF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF2FCB41B412C9B006E3FF3 /* LaunchScreen.xib */; };
 		3AF2FCC21B412C9B006E3FF3 /* EHNetWorkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2FCC11B412C9B006E3FF3 /* EHNetWorkingTests.m */; };
+		3AF43EA31B58F38800610CA7 /* EHAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF43EA21B58F38800610CA7 /* EHAPIBaseManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +45,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A00D34B1B53929B00220702 /* ReformerStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReformerStrategy.h; sourceTree = "<group>"; };
+		3A00D34C1B53929B00220702 /* ReformerStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReformerStrategy.m; sourceTree = "<group>"; };
+		3A00D34F1B53947F00220702 /* LoginStructReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginStructReformer.h; sourceTree = "<group>"; };
+		3A00D3501B53947F00220702 /* LoginStructReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginStructReformer.m; sourceTree = "<group>"; };
+		3A00D3521B53A78200220702 /* DeviceStructReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceStructReformer.h; sourceTree = "<group>"; };
+		3A00D3531B53A78200220702 /* DeviceStructReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceStructReformer.m; sourceTree = "<group>"; };
+		3AE6A7501B466C7D004CD42C /* EHAPIPorxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHAPIPorxy.h; sourceTree = "<group>"; };
+		3AE6A7511B466C7D004CD42C /* EHAPIPorxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHAPIPorxy.m; sourceTree = "<group>"; };
+		3AE6A7531B467ECD004CD42C /* AIFURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFURLResponse.h; sourceTree = "<group>"; };
+		3AE6A7541B467ECD004CD42C /* AIFURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFURLResponse.m; sourceTree = "<group>"; };
+		3AE6A7561B467F5F004CD42C /* AIFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIFNetworking.h; sourceTree = "<group>"; };
+		3AE6A7571B467F5F004CD42C /* AIFNetworkingConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIFNetworkingConfiguration.h; sourceTree = "<group>"; };
+		3AE6A75A1B468722004CD42C /* NSURLRequest+AIFNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+AIFNetworkingMethods.h"; sourceTree = "<group>"; };
+		3AE6A75B1B468722004CD42C /* NSURLRequest+AIFNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+AIFNetworkingMethods.m"; sourceTree = "<group>"; };
+		3AE6A75D1B46876C004CD42C /* NSObject+AXNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AXNetworkingMethods.h"; sourceTree = "<group>"; };
+		3AE6A75E1B46876C004CD42C /* NSObject+AXNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AXNetworkingMethods.m"; sourceTree = "<group>"; };
+		3AECCF241B4D0C7C005AF836 /* EHServiceSOAPGatewayKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHServiceSOAPGatewayKeys.h; sourceTree = "<group>"; };
+		3AECCF251B4D135A005AF836 /* DESEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESEncrypt.h; sourceTree = "<group>"; };
+		3AECCF261B4D135A005AF836 /* DESEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESEncrypt.m; sourceTree = "<group>"; };
+		3AEF3A2D1B43DADB00A61F54 /* SoapInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapInterface.h; sourceTree = "<group>"; };
+		3AEF3A2E1B43DADB00A61F54 /* SoapInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapInterface.m; sourceTree = "<group>"; };
+		3AF095D21B4290B1008504E0 /* soapC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = soapC.c; sourceTree = "<group>"; };
+		3AF095D31B4290B1008504E0 /* soapClient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = soapClient.c; sourceTree = "<group>"; };
+		3AF095D41B4290B1008504E0 /* soapH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soapH.h; sourceTree = "<group>"; };
+		3AF095D51B4290B1008504E0 /* soapServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = soapServer.c; sourceTree = "<group>"; };
+		3AF095D61B4290B1008504E0 /* soapStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soapStub.h; sourceTree = "<group>"; };
+		3AF095D71B4290B1008504E0 /* stdsoap2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stdsoap2.c; sourceTree = "<group>"; };
+		3AF095D81B4290B1008504E0 /* stdsoap2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdsoap2.h; sourceTree = "<group>"; };
+		3AF095D91B4290B1008504E0 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		3AF095DA1B4290B1008504E0 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		3AF095DB1B4290B1008504E0 /* HomeMCUServiceBinding_USCOREIHomeMCUService.nsmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HomeMCUServiceBinding_USCOREIHomeMCUService.nsmap; sourceTree = "<group>"; };
+		3AF095E81B42940D008504E0 /* EHServiceSOAPGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHServiceSOAPGateway.h; sourceTree = "<group>"; };
+		3AF095E91B42940D008504E0 /* EHServiceSOAPGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHServiceSOAPGateway.m; sourceTree = "<group>"; };
+		3AF1C30F1B54FEA2008C93A8 /* ReformerSOAPGetwayFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReformerSOAPGetwayFactory.h; sourceTree = "<group>"; };
+		3AF1C3101B54FEA2008C93A8 /* ReformerSOAPGetwayFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReformerSOAPGetwayFactory.m; sourceTree = "<group>"; };
 		3AF2FCA21B412C9A006E3FF3 /* EHNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EHNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF2FCA61B412C9A006E3FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AF2FCA71B412C9A006E3FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +93,8 @@
 		3AF2FCBB1B412C9B006E3FF3 /* EHNetWorkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EHNetWorkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF2FCC01B412C9B006E3FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AF2FCC11B412C9B006E3FF3 /* EHNetWorkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHNetWorkingTests.m; sourceTree = "<group>"; };
+		3AF43EA11B58F38800610CA7 /* EHAPIBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHAPIBaseManager.h; sourceTree = "<group>"; };
+		3AF43EA21B58F38800610CA7 /* EHAPIBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHAPIBaseManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +115,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A00D34E1B53936100220702 /* StructRefomer */ = {
+			isa = PBXGroup;
+			children = (
+				3AF1C30F1B54FEA2008C93A8 /* ReformerSOAPGetwayFactory.h */,
+				3AF1C3101B54FEA2008C93A8 /* ReformerSOAPGetwayFactory.m */,
+				3A00D34B1B53929B00220702 /* ReformerStrategy.h */,
+				3A00D34C1B53929B00220702 /* ReformerStrategy.m */,
+				3A00D34F1B53947F00220702 /* LoginStructReformer.h */,
+				3A00D3501B53947F00220702 /* LoginStructReformer.m */,
+				3A00D3521B53A78200220702 /* DeviceStructReformer.h */,
+				3A00D3531B53A78200220702 /* DeviceStructReformer.m */,
+			);
+			name = StructRefomer;
+			sourceTree = "<group>";
+		};
+		3AE6A7581B467FB5004CD42C /* EHNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				3AE6A7531B467ECD004CD42C /* AIFURLResponse.h */,
+				3AE6A7541B467ECD004CD42C /* AIFURLResponse.m */,
+				3AF43EA11B58F38800610CA7 /* EHAPIBaseManager.h */,
+				3AF43EA21B58F38800610CA7 /* EHAPIBaseManager.m */,
+				3AE6A7501B466C7D004CD42C /* EHAPIPorxy.h */,
+				3AE6A7511B466C7D004CD42C /* EHAPIPorxy.m */,
+				3AE6A7561B467F5F004CD42C /* AIFNetworking.h */,
+				3AE6A7571B467F5F004CD42C /* AIFNetworkingConfiguration.h */,
+				3AF2FCCB1B412CD3006E3FF3 /* Components */,
+			);
+			name = EHNetWorking;
+			sourceTree = "<group>";
+		};
+		3AE6A7591B46870C004CD42C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3AE6A75D1B46876C004CD42C /* NSObject+AXNetworkingMethods.h */,
+				3AE6A75E1B46876C004CD42C /* NSObject+AXNetworkingMethods.m */,
+				3AE6A75A1B468722004CD42C /* NSURLRequest+AIFNetworkingMethods.h */,
+				3AE6A75B1B468722004CD42C /* NSURLRequest+AIFNetworkingMethods.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		3AF095D11B429097008504E0 /* ServiceSOAPGateway */ = {
+			isa = PBXGroup;
+			children = (
+				3AF1C3121B550A0E008C93A8 /* GOAP */,
+				3A00D34E1B53936100220702 /* StructRefomer */,
+				3AECCF241B4D0C7C005AF836 /* EHServiceSOAPGatewayKeys.h */,
+				3AF095E81B42940D008504E0 /* EHServiceSOAPGateway.h */,
+				3AF095E91B42940D008504E0 /* EHServiceSOAPGateway.m */,
+				3AECCF251B4D135A005AF836 /* DESEncrypt.h */,
+				3AECCF261B4D135A005AF836 /* DESEncrypt.m */,
+			);
+			name = ServiceSOAPGateway;
+			sourceTree = "<group>";
+		};
+		3AF1C3121B550A0E008C93A8 /* GOAP */ = {
+			isa = PBXGroup;
+			children = (
+				3AEF3A2D1B43DADB00A61F54 /* SoapInterface.h */,
+				3AEF3A2E1B43DADB00A61F54 /* SoapInterface.m */,
+				3AF095D21B4290B1008504E0 /* soapC.c */,
+				3AF095D31B4290B1008504E0 /* soapClient.c */,
+				3AF095D41B4290B1008504E0 /* soapH.h */,
+				3AF095D51B4290B1008504E0 /* soapServer.c */,
+				3AF095D61B4290B1008504E0 /* soapStub.h */,
+				3AF095D71B4290B1008504E0 /* stdsoap2.c */,
+				3AF095D81B4290B1008504E0 /* stdsoap2.h */,
+				3AF095D91B4290B1008504E0 /* base64.h */,
+				3AF095DA1B4290B1008504E0 /* base64.c */,
+				3AF095DB1B4290B1008504E0 /* HomeMCUServiceBinding_USCOREIHomeMCUService.nsmap */,
+			);
+			name = GOAP;
+			sourceTree = "<group>";
+		};
 		3AF2FC991B412C9A006E3FF3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +211,7 @@
 		3AF2FCA41B412C9A006E3FF3 /* EHNetWorking */ = {
 			isa = PBXGroup;
 			children = (
+				3AE6A7581B467FB5004CD42C /* EHNetWorking */,
 				3AF2FCA91B412C9A006E3FF3 /* AppDelegate.h */,
 				3AF2FCAA1B412C9A006E3FF3 /* AppDelegate.m */,
 				3AF2FCAC1B412C9A006E3FF3 /* ViewController.h */,
@@ -117,6 +248,15 @@
 				3AF2FCC01B412C9B006E3FF3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AF2FCCB1B412CD3006E3FF3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3AE6A7591B46870C004CD42C /* Categories */,
+				3AF095D11B429097008504E0 /* ServiceSOAPGateway */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF095E11B4290B1008504E0 /* HomeMCUServiceBinding_USCOREIHomeMCUService.nsmap in Resources */,
 				3AF2FCB11B412C9B006E3FF3 /* Main.storyboard in Resources */,
 				3AF2FCB61B412C9B006E3FF3 /* LaunchScreen.xib in Resources */,
 				3AF2FCB31B412C9B006E3FF3 /* Images.xcassets in Resources */,
@@ -219,8 +360,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF1C3111B54FEA2008C93A8 /* ReformerSOAPGetwayFactory.m in Sources */,
+				3AECCF271B4D135A005AF836 /* DESEncrypt.m in Sources */,
+				3AF43EA31B58F38800610CA7 /* EHAPIBaseManager.m in Sources */,
 				3AF2FCAE1B412C9A006E3FF3 /* ViewController.m in Sources */,
 				3AF2FCAB1B412C9A006E3FF3 /* AppDelegate.m in Sources */,
+				3AF095DD1B4290B1008504E0 /* soapClient.c in Sources */,
+				3AF095DE1B4290B1008504E0 /* soapServer.c in Sources */,
+				3AE6A75C1B468722004CD42C /* NSURLRequest+AIFNetworkingMethods.m in Sources */,
+				3AEF3A2F1B43DADB00A61F54 /* SoapInterface.m in Sources */,
+				3AF095EA1B42940D008504E0 /* EHServiceSOAPGateway.m in Sources */,
+				3A00D3541B53A78200220702 /* DeviceStructReformer.m in Sources */,
+				3AE6A75F1B46876C004CD42C /* NSObject+AXNetworkingMethods.m in Sources */,
+				3AF095DF1B4290B1008504E0 /* stdsoap2.c in Sources */,
+				3A00D34D1B53929B00220702 /* ReformerStrategy.m in Sources */,
+				3AF095DC1B4290B1008504E0 /* soapC.c in Sources */,
+				3AE6A7521B466C7D004CD42C /* EHAPIPorxy.m in Sources */,
+				3AE6A7551B467ECD004CD42C /* AIFURLResponse.m in Sources */,
+				3A00D3511B53947F00220702 /* LoginStructReformer.m in Sources */,
+				3AF095E01B4290B1008504E0 /* base64.c in Sources */,
 				3AF2FCA81B412C9A006E3FF3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +576,7 @@
 				3AF2FCC71B412C9B006E3FF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AF2FCC81B412C9B006E3FF3 /* Build configuration list for PBXNativeTarget "EHNetWorkingTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +585,7 @@
 				3AF2FCCA1B412C9B006E3FF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
